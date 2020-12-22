@@ -1,0 +1,12 @@
+{
+  "name": "los-mios",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.29.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

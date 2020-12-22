@@ -1,0 +1,189 @@
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #eff0f3;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  margin-top: -90px;
+}
+.letters {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  font-size: 25px;
+  margin-top: -135px;
+}
+.letters2 {
+  display: flex;
+  justify-content: center;
+}
+.login {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+
+  input {
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+    padding: 15px;
+    width: 335px;
+    border-radius: 5px;
+    border: 1px solid rgb(205, 207, 212);
+    margin: 12px 10px 5px 10px;
+  }
+}
+
+.login2 {
+  display: flex;
+  justify-content: center;
+  width: 370px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: rgba(128, 128, 128, 0.301) 1px 1px 2px 2px;
+  .b1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    padding: 10px;
+    width: 360px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: #0071bc;
+    border: none;
+    font-weight: bold;
+  }
+  .b2 {
+    font-size: 1.1em;
+    border: none;
+    margin: 10px;
+    padding: 17px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #2eb119;
+    color: white;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  .a {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #3b5998;
+  }
+  .hr {
+    margin-top: 20px;
+    line-height: 20px;
+    border-color: rgba(255, 255, 255, 0.412);
+    width: 340px;
+  }
+}
+.make2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.make {
+  font-size: 15px;
+  width: 400px;
+}
+.foot {
+  display: flex;
+  color: #8c939d;
+  background-color: white;
+  width: 100%;
+  align-self: flex-end;
+  font-size: 12px;
+  line-height: 20px;
+  .line {
+    border-top: 1px solid rgba(128, 128, 128, 0.301);
+    height: 2px;
+    max-width: 900px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
+  .x {
+    border: 1px solid rgb(187, 187, 187);
+  }
+  li {
+    display: inline;
+    padding: 0 5px;
+  }
+  a {
+    text-decoration: none;
+    color: #8c939d;
+  }
+}
+.warning {
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: red;
+  padding-top: 20px;
+}
+
+@media (min-width: 1200px) {
+  html,
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 115vh;
+    min-width: 100vh;
+  }
+  .login2 {
+    display: flex;
+
+    margin-left: 320px;
+    margin-top: 100px;
+  }
+  .icon {
+    margin-top: 80px;
+    margin-left: 160px;
+  }
+  .letters {
+    font-size: 1.7em;
+    display: flex;
+    padding: 0 2rem;
+    text-align: left;
+    position: absolute;
+    width: 500px;
+  }
+  .letters2 {
+    margin-left: 420px;
+  }
+  .make {
+    margin-left: 750px;
+    margin-top: 0px;
+  }
+  .foot {
+    display: flex;
+    align-self: flex-end;
+    .line {
+      margin: 5px 0 auto 245px;
+    }
+  }
+  .foot1 {
+    margin-left: 200px;
+  }
+  .foot2 {
+    margin-left: 200px;
+    margin-right: 335px;
+  }
+}
